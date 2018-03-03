@@ -6,6 +6,7 @@ html {
 .container {
     position: absolute;
     width: 99%;
+    height: 220vh;
 }
 
 
