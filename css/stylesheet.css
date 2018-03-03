@@ -40,3 +40,10 @@ html {
 
 }
 
+.image {
+    position: fixed;
+    padding-left: 50%;
+    margin-left: -3em;
+    bottom: 0;
+}
+
