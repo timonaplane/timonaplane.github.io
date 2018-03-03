@@ -36,7 +36,7 @@ html {
 .middle{
     position: relative;
     color: red;
-    background-position: center;
+    background-position: center bottom;
 
 }
 .image {
