@@ -47,20 +47,21 @@ html {
 }
 
 .middle{
-    position: fixed;
+    
+    position: relative;
     color: red;
     background: url("../img/thinarrow.png");
 
 }
 
 .image {
-    position: fixed;
+    position: relative;
     padding-left: 50%;
     margin-left: -5em;
     bottom: 0;
 }
 .bottom {
-    position: fixed; 
+    position: relative; 
     bottom: 0;
 }
 
