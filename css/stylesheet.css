@@ -5,7 +5,7 @@ html {
 
 .container {
     position: absolute;
-    width: 100vh;
+    width: 100vw;
     height: 220vh;
 }
 
@@ -13,7 +13,7 @@ html {
 #header {
     clear: both;
 
-    width: 100vh;
+    width: 100vw;
     height: 88vh;
     position: relative;
 }
@@ -23,7 +23,7 @@ html {
  text-align: center;
     position: absolute;
     top: 30vh;
-    left: 48vh;
+    left: 48vw;
     transform:
 
     text-align: center;
@@ -50,7 +50,7 @@ html {
 
 .image {
     position: relative;
-    padding-left: 100vh;
+    padding-left: 50vw;
 }
 .bottom {
     position: relative; 
