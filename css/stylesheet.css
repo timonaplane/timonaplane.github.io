@@ -8,12 +8,12 @@ html {
     paddign: 0;
 
     width: 100%;
-    height: 23em;
+    height: 25em;
     position: relative;
 }
 
 #headerText {
-    width: 50em;
+    width: 48em;
     margin: 0 auto;
     margin-top: 15%;
 
