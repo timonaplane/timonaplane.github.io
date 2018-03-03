@@ -34,19 +34,20 @@ html {
 }
 
 .middle{
-    position: absolute;
+    position: fixed;
     color: red;
     background: url("../img/thinarrow.png");
 
 }
 
 .image {
-    position: absolute;
+    position: fixed;
     padding-left: 50%;
     margin-left: -5em;
     bottom: 0;
 }
 .bottom {
-    position: relative;   
+    position: fixed; 
+    bottom: 0;
 }
 
