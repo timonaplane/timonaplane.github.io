@@ -34,10 +34,10 @@ html {
 }
 
 .middle{
-    position: relative;
+    position: fixed;
     color: red;
     background-position: center bottom;
-    background: url("../img/thinarrow.png") no-repeat;
+    background: url("../img/thinarrow.png");
 
 }
 
