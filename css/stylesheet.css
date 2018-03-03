@@ -1,0 +1,43 @@
+html {
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+#header {
+    clear: both;
+    paddign: 0;
+
+    width: 100%;
+    height: 23em;
+    position: relative;
+}
+
+#headerText {
+    width: 27em;
+    margin: 0 auto;
+    margin-top: 15%;
+
+    text-align: center;
+}
+
+#headerText h1 {
+    color: #65737e;
+    font-size: 300%;
+    font-weight: 100;
+    margin: 1px;
+
+    border-bottom: 2px solid #81d4fa;
+}
+
+#headerText h3 {
+    color: #65737e;
+}
+
+.middle{
+    position: relative;
+    color: red;
+}
+.image {
+    padding-left: 50%;
+    margin-left: -3em;
+}
