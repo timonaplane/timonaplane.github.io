@@ -40,4 +40,5 @@ html {
 .image {
     padding-left: 50%;
     margin-left: -3em;
+    bottom: 0;
 }
