@@ -5,6 +5,7 @@ html {
 
 .container {
     position: absolute;
+    width: 99%;
 }
 
 .hero-text {
