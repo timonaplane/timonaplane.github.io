@@ -46,4 +46,7 @@ html {
     margin-left: -5em;
     bottom: 0;
 }
+.bottom {
+    position: relative;   
+}
 
