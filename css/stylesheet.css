@@ -19,8 +19,8 @@ html {
 }
 
 #headerText {
-    width: 43vw;
- text-align: center;
+    width: 42vw;
+    text-align: center;
     position: absolute;
     top: 30vh;
     left: 40vh;
