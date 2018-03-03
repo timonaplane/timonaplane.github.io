@@ -42,5 +42,5 @@ html {
     padding-left: 50%;
     margin-left: -3em;
     bottom: 0;
-    background: url("../img/thinarrow.png");
+    background: url("../img/thinarrow.png") no-repeat;
 }
