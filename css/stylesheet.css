@@ -36,7 +36,6 @@ html {
 .middle{
     position: fixed;
     color: red;
-    background-position: center bottom;
     background: url("../img/thinarrow.png");
 
 }
