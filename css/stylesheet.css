@@ -21,13 +21,14 @@ html {
     paddign: 0;
 
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 
 #headerText {
     width: 45em;
-
+    margin: 0 auto;
+    margin-top: 15%;
 
     text-align: center;
 }
