@@ -3,6 +3,11 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+.container {
+    width: 100%;
+    position: absolute;
+}
+
 .hero-text {
     text-align: center;
     position: absolute;
