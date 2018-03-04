@@ -42,7 +42,7 @@ html {
     position: relative;
     height: 12vh;
     width: 13vh;
-    padding-left: 45vw;
+    left: 45vw;
     background: url("../img/thinarrow.png") no-repeat;
     background-position: 45vw;
     display: block;
