@@ -46,6 +46,10 @@ html {
     
 
 }
+.middle:hover{
+        background: url("../img/thinarrowHover.png") no-repeat;
+
+}
 
 .image {
     position: relative;
