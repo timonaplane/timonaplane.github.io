@@ -23,13 +23,13 @@ html {
     text-align: center;
     position: absolute;
     top: 30vh;
-    left: 40vw;
+    left: 30vw;
 
 }
 
 #headerText h1 {
     color: #65737e;
-    font-size: 9vh;
+    font-size: 10vh;
     font-weight: 100;
     margin: 1px;
     border-bottom: 2px solid #81d4fa;
