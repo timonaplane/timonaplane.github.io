@@ -55,5 +55,7 @@ html {
 }
 .bottom {
     position: relative; 
+    height: 100vh;
+    width: 98vw;
 }
 
