@@ -41,11 +41,15 @@ html {
 .middle{
     position: relative;
     height: 12vh;
+    width: 12vh;
     color: red;
     background: url("../img/thinarrow.png") no-repeat;
     background-position: 45vw;
     
 
+}
+.middle:hover{
+    
 }
 
 
