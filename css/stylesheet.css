@@ -41,7 +41,7 @@ html {
 .middle{
     position: relative;
     color: red;
-    background: url("../img/thinarrow.png") no-repeat;
+    background: url("../img/thinarrowHover.png") no-repeat;
     background-position: 45vw;
     
 
