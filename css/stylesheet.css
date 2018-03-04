@@ -41,7 +41,9 @@ html {
 .middle{
     position: relative;
     color: red;
-    background: url("../img/thinarrow.png") no-repeat 60vh;
+    background: url("../img/thinarrow.png") no-repeat;
+    background-position: center;
+    
 
 }
 
