@@ -45,11 +45,9 @@ html {
     padding-left: 45vw;
     background: url("../img/thinarrow.png") no-repeat;
     background-position: 45vw;
+    display: block;
     
 
-}
-.middle:hover{
-    
 }
 
 
