@@ -6,6 +6,17 @@
     <meta charset="UTF-8">
     <meta name="description" content="Timothy Matthews timonaplane website ">
     <title>TimothyMatthews</title>
+    <script>
+        $('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
+    </script>
 </head>
 <body>
 <div class = "container">
