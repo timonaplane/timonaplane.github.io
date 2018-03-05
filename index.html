@@ -14,15 +14,15 @@
     
     
     
-<script>
-        $('a[href^="#bottom"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
+<script src="jquery-3.3.1.min.js">
+       $(function(){
+  $('a[href^=#]').click(function(e){
+    var name = $(this).attr('href').substr(1);
+    var pos = $('a[name='+name+']').offset();
+    $('body').animate({ scrollTop: pos.top });
+    e.preventDefault();
+  });
+});
 });
     </script>
 <body>
