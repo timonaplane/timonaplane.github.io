@@ -15,14 +15,14 @@
     
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-       $(function name(){
-  $('a[href^=#]').click(function(e){
-    var name = $(this).attr('href').substr(1);
-    var pos = $('a[name='+name+']').offset();
-    $('body').animate({ scrollTop: pos.top });
-    e.preventDefault();
-  });
-});
+      
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
 });
     </script>
 <body>
@@ -38,7 +38,7 @@
 
     <a href ="#bottom" onclick = "name();" class ="middle" id = "middle"></a>
     <br />
-    <div class ="bottom" name = "bottom"id="bottom">
+    <div class ="bottom" name = "bottom" id="bottom">
      Where does this show up            
      </div>
     </div>
